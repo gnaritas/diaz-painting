@@ -60,7 +60,7 @@ section.pagehero p.deck{color:#d5c9e4;max-width:620px;font-size:1.12rem}
 
 /* home hero */
 .hero{background:linear-gradient(160deg,#4f3a65 0%,var(--plum-deep) 62%);color:#efe7f6}
-.herogrid{display:grid;grid-template-columns:1.22fr .78fr;gap:44px;align-items:center;padding:92px 0 86px}
+.herogrid{display:grid;grid-template-columns:1.22fr .78fr;gap:44px;align-items:center;padding:92px 28px 86px}
 .hero .eyebrow{color:var(--c4)}
 .hero h1{color:#fff;font-size:clamp(2.3rem,5.1vw,4rem);margin-bottom:18px}
 .hero p.deck{color:#d5c9e4;font-size:1.18rem;max-width:580px;margin-bottom:30px}
@@ -173,7 +173,7 @@ p.copy{font-family:var(--head);font-size:.82rem;letter-spacing:.06em;color:#9382
 footer a{color:#e4c6d4}
 
 @media (max-width:900px){
-  .herogrid{grid-template-columns:1fr;padding:64px 0 58px}
+  .herogrid{grid-template-columns:1fr;padding:64px 28px 58px}
   .fan{height:auto;display:flex;gap:12px;justify-content:flex-start;margin-top:8px}
   .fan .chip{position:static;transform:none!important;height:124px;width:104px;box-shadow:0 10px 24px rgba(23,12,34,.4)}
   .mapgrid,.contactgrid{grid-template-columns:1fr}
