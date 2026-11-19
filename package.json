@@ -1,0 +1,8 @@
+{
+  "name": "diaz-painting",
+  "version": "1.0.0",
+  "description": "Diaz Painting LLC — residential interior & exterior painting, Vancouver WA (static site + node form relay)",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
